@@ -1,0 +1,29 @@
+#head{height: 130px;margin-top: 20px;}
+#head .logo{width: 430px;height: 50px;margin-top: 10px;margin-bottom: 30px}
+#head .logo a{display: block;width: 420px;height: 50px;background: url("../images/cart/cart_img.png") -14px -17px no-repeat;}
+#head .r{width: 700px;height: 30px;background: url("../images/cart/cart_img.png") -15px -89px no-repeat;margin-top: 30px;margin-bottom: 30px}
+#head .l img{display: block }
+
+#title{background-color: #d8d7d7;height: 36px;line-height: 36px;text-align: center}
+#title span{float: left}
+
+#content{height: auto;}
+#content .inner{width: 1200px;height: 150px;border-bottom: 1px solid #ccc;position: relative}
+#content .inner .img{width: 80px;height: 80px;margin: 30px 40px 0 40px}
+#content .inner img{display: block;width: 80px}
+#content .inner .name{height: 80px;width: 360px;line-height: 40px;margin-top: 30px}
+#content .inner .size{height: 100%;line-height: 150px;width: 160px;text-align: center}
+#content .inner .num{height: 100%;line-height: 150px;width: 160px;text-align: center}
+#content .inner .num .sub{float: left;cursor: pointer;font-size: 22px;width: 30px;height: 30px; border: 1px solid #ccc;line-height: 30px;margin-top: 60px;margin-left: 35px}
+#content .inner .num .goodNum{float: left;width: 30px}
+#content .inner .num .plus{float: left;cursor: pointer;font-size: 22px;width: 30px;height: 30px;border: 1px solid #ccc;margin-top: 60px;line-height: 30px}
+#content .inner .price{height: 100%;line-height: 150px;width: 160px;text-align: center}
+#content .inner .all{height: 100%;line-height: 150px;width: 160px;text-align: center;color: red}
+#content .inner div:last-child{position: absolute;right: 10px;top: 66px;background: url("../images/user/exit.jpg");width: 17px;height: 17px;cursor: pointer;}
+
+#manyMuch{height: 40px;}
+#manyMuch span{float: right;color: #333;font-size: 14px;height: 40px;line-height: 40px}
+#manyMuch #howmany{font-size: 16px;color: #a90024;}
+#manyMuch #howmuch{font-size: 22px;color: #a90024}
+
+#submit{background: url("../images/cart/cart_img.png") no-repeat -16px -361px;width: 157px;height: 36px;float: right;cursor: pointer}

@@ -1,0 +1,109 @@
+#container{height: 950px;overflow: hidden}
+#container .title{width: 100%;height: 40px;margin-top: 6px;}
+#container .title span,#container .title a{width: auto;height: 20px;line-height: 20px;font-size: 12px;margin-top: 10px;    }
+#container .left{width: 140px;height: 910px;}
+#container .left #my{cursor: pointer}
+#container .left #ilike{cursor: pointer}
+#container .left #revisePsw{cursor: pointer}
+#container .left #reviseAdr{cursor: pointer}
+#container .left .logo{background:url("../images/user/logo.jpg") no-repeat;width: 138px;height: 38px;border: 1px solid #ccc}
+#container .left .manage{margin-top: 10px;width: 138px;height: 106px;border: 1px solid #ccc;border-bottom: 0;}
+#container .left .service{width: 138px;height: 127px;border: 1px solid #ccc;border-bottom: 0;}
+#container .left .account{width: 138px;height: 176px;border: 1px solid #ccc;border-bottom: 0;}
+#container .left .personal{width: 138px;height: 130px;border: 1px solid #ccc;}
+#container .left>div>h3{height: 30px;line-height: 30px;font-size: 12px;background: url("../images/user/v.jpg") no-repeat 120px 12px #fafafa;text-indent: 10px;margin-bottom: 6px}
+#container .left>div>a,#container .left>div>span{display: block;height: 21px;width: 100%;text-indent: 20px;font-size: 12px}
+#container .left>.img{width: 140px;height: 140px;margin-top: 10px}
+#container .left>.img img{display: block}
+
+.fontBlue{color:#3366cc}
+#container #userCenterContent{width: 1050px; height: 910px;margin-left: 10px;float: left;display: block}
+#container #userCenterContent #info{width: 1048px;height: 200px;border: 1px solid #ccc;}
+#container #userCenterContent #info .info{overflow: hidden;margin-top: 10px}
+#container #userCenterContent #info .image{width: 120px;height: 170px;margin: 10px 0 0 15px;}
+#container #userCenterContent #info .info{width: 890px;height: 170px;padding-left: 20px}
+#container #userCenterContent #info .info .userNameBand{display: block;height: 16px;line-height: 16px;}
+#container #userCenterContent #info .info .userNameBand .userName{font-weight: bold}
+#container #userCenterContent #info .info .infoBand{display: block;height: 40px;line-height: 40px;}
+#container #userCenterContent #info .info .infoBand img{margin-top: 10px;float: left}
+#container #userCenterContent #info .info .addBand{display: block;height: 40px;line-height: 40px}
+#container #userCenterContent .bold{font-weight: bold;margin-top: 30px;margin-bottom: 10px}
+#container #userCenterContent .countBand{width: 1048px;height: 28px; border: 1px solid #ccc}
+#container #userCenterContent .countBand>span{float: left}
+#container #userCenterContent .countBand .fontDarkRed{margin-right: 20px;}
+#container #userCenterContent .cartBand{height: 162px;width: 1048px;border: 1px solid #ccc;background: url("../images/user/cart.jpg") 441px 12px no-repeat;}
+
+
+#container #userCenterContent .iGuess{width: 1048px;height: 300px;border: 1px solid #ccc;position: relative}
+#container #userCenterContent .iGuess #left{position: absolute;width: 25px;height: 40px;text-align: center;line-height: 40px;color:#fff;background-color: #7f7f7f;left: 20px;top: 115px;cursor: pointer}
+#container #userCenterContent .iGuess #right{position: absolute;width: 25px;height: 40px;text-align: center;line-height: 40px;color:#fff;background-color: #7f7f7f;right: 20px;top: 115px;cursor: pointer}
+#container #screenBand{position: relative;width: 920px;height: 280px;top:10px;left: 64px;overflow: hidden}
+#container #screen{position: absolute;width: auto;height: 280px;background-color: #fafafa;left: 0px}
+#container #screen .innerItem{width: 210px;height: 280px;margin: 0 10px;position: relative;float: left;left: 1px}
+#container #screen .innerItem img{width: 210px;display: block}
+#container #screen .innerItem p{height: 40px;line-height: 20px;font-size: 14px}
+
+#container #ilikeContent{width: 1050px; height: 910px;margin-left: 10px;float: left;font-size: 12px;display: none}
+#container #ilikeContent p{font-weight: bold;border-bottom: 1px solid #c70a28;height: 30px;line-height: 30px;width: 100%}
+#container #ilikeContent .titleBand{width: 1048px;height: 28px;border: 1px solid #ccc;position: relative;background-color: #fafafa;margin-top: 30px}
+#container #ilikeContent .titleBand span{float: left;height: 28px;line-height: 28px;padding: 0 20px;border-right: 1px solid #ccc;cursor: pointer}
+#container #ilikeContent .titleBand span:last-child{background: url("../images/user/down.jpg") no-repeat 79px 11px;}
+#container #ilikeContent .deleteBand{width: 100%;height: 20px;padding-top: 20px;}
+#container #ilikeContent .deleteBand input{margin-top: 3px;}
+#container #ilikeContent .deleteBand *{float: left}
+#container #ilikeContent .deleteBand label{width: 40px;text-align: center}
+#container #ilikeContent .deleteBand #delete{background: url("../images/user/trash.jpg") no-repeat left center;width: 75px;text-align: center;margin-left: 30px;cursor: pointer}
+#container #ilikeContent .itemBand{width: 100%;height: 700px;}
+#container #ilikeContent .itemBand .item{width: 240px;height: 320px;float: left;margin: 0 11px}
+#container #ilikeContent .itemBand .item img{display: block;width: 240px}
+#container #ilikeContent .itemBand .item>a{display: block}
+#container #ilikeContent .itemBand .item .nameBand{height: 20px;line-height: 20px;display: block;overflow: hidden}
+#container #ilikeContent .itemBand .item .priceBand{height: 20px;display: block;text-align: center}
+#container #ilikeContent .itemBand .item .priceBand .fontDarkRed{color: #a90024;font-size: 16px;font-family: "Arial";font-weight: bold}
+#container #ilikeContent .itemBand .item .btnBand{display: block;height: 20px;padding-left: 100px}
+#container #ilikeContent .itemBand .item .btnBand span{float: left;width: 20px;height: 20px;cursor: pointer}
+#container #ilikeContent .itemBand .item .btnBand span:nth-child(1){background: url("../images/user/trash.jpg") no-repeat}
+#container #ilikeContent .itemBand .item .btnBand span:nth-child(2){background: url("../images/user/home.jpg") no-repeat}
+#container #ilikeContent .itemBand .item .btnBand span:nth-child(3){background: url("../images/user/cartLittle.jpg") no-repeat}
+#container #ilikeContent .numberBand{font-size: 16px;text-align: center;font-weight: bold}
+
+#container #myContent{width: 1050px; height: 910px;margin-left: 10px;float: left;display: none;}
+#container #myContent p{border-bottom: 1px solid #a90024}
+#container #myContent p a{background: url("../images/user/trashCan.jpg");width: 110px;height: 20px}
+#container #myContent .searchBand{width: 100%;height: 30px;}
+#container #myContent .searchBand input{border: 1px solid #ccc;color: #999;width: 380px;height: 28px}
+#container #myContent .searchBand button{border: 1px solid #ccc;width: 40px;text-align: center;height: 28px;line-height: 28px;margin-top: 2px}
+#container #myContent .selBand{height: 40px;overflow: hidden}
+#container #myContent .selBand *{float: left}
+#container #myContent .selBand span{margin-top: 10px;}
+#container #myContent .selBand select{border: 1px solid #ccc;margin-right: 25px;margin-top: 13px}
+
+#container #revisePswContent{width: 1050px; height: 910px;margin-left: 10px;float: left;display: none;}
+#container #revisePswContent p{border-bottom: 1px solid #a90024}
+#container #revisePswContent>div{width: 322px;height: 34px;margin: 20px auto}
+#container #revisePswContent>div label{float: left;width: 80px;text-align: right;}
+#container #revisePswContent>div input{width: 238px;height: 32px;border: 1px solid #ccc;}
+#container #revisePswContent .save{width: 50px;height: 25px;line-height: 25px;border: 1px solid #ad041f;background-color: #d4213d;margin: 0 auto;color: #fff;text-align: center;font-weight: bold;cursor: pointer}
+
+#container #revisePswContent{width: 1050px; height: 910px;margin-left: 10px;float: left;display: none;}
+
+#container #reviseAdrContent{width: 1050px; height: 610px;margin-left: 10px;float: left;position: relative}
+#container #reviseAdrContent p {border-bottom: 1px solid #a90024}
+#container #reviseAdrContent p #appendAdr{float: right;color:#3366cc;cursor: pointer}
+#container #reviseAdrContent table{width: 1048px;height: auto;border: 1px solid #ccc;border-collapse: collapse;margin-top: 20px}
+#container #reviseAdrContent table td{border: 1px solid #ccc;text-align: center;height: 30px;line-height: 30px;}
+#container #reviseAdrContent #appendBand{position: absolute;left:50%;top:50%;margin-top:-112px;margin-left:-222px;width: 444px;height: 224px;border: 3px solid #ccc;}
+#container #reviseAdrContent #appendBand .title{font-weight: bold;font-size: 18px;color: #333;border-bottom: 1px dashed #ccc;height: 30px;line-height: 30px;text-indent: 16px;margin: 0}
+#container #reviseAdrContent #appendBand .title span.exit{cursor: pointer;float: right;width: 17px;height: 17px;background: url("../images/user/exit.jpg");margin-right: 20px;margin-top: 6px;line-height: 0;}
+#container #reviseAdrContent #appendBand .left{width: 90px;float: left;height: 130px;margin-left: 20px;margin-top: 20px}
+#container #reviseAdrContent #appendBand .left label{width: 75px;height: 30px;line-height:30px;float: right;text-align: left;background: url("../images/user/star.jpg") no-repeat left 10px;font-size: 12px;text-indent: 8px}
+#container #reviseAdrContent #appendBand .right{float: left;width: 330px;margin-top: 20px;height: 130px}
+#container #reviseAdrContent #appendBand .right input{width: 245px;height: 28px;border:solid #ccc 1px;margin-top: 2px;display: block}
+#container #reviseAdrContent #appendBand .right select{border: 1px solid #ccc}
+#container #reviseAdrContent #appendBand .bottom{height: 50px;border-top: 1px dashed #ccc;padding-left: 140px;float: left;width: 303px;}
+#container #reviseAdrContent #appendBand .bottom span{margin-right: 12px;float: left;margin-top: 5px;width: 75px;height: 30px;text-align: center;line-height: 30px;cursor: pointer}
+#container #reviseAdrContent #appendBand .bottom #submit{color: #fff;background-color: #a90024;}
+#container #reviseAdrContent .rev{cursor: pointer}
+#container #reviseAdrContent .del{cursor: pointer}
+
+

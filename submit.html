@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>韩都衣舍-提交订单</title>
+    <link rel="stylesheet" type="text/css" href="core/common.css"/>
+    <link rel="stylesheet" type="text/css" href="core/commonHead1.css"/>
+    <link rel="shortcut icon" href="images/ico.ico" type="image/x-icon"/>
+    <style type="text/css">
+        #head{height: 130px;margin-top: 20px;}
+        #head .logo{width: 430px;height: 50px;margin-top: 10px;margin-bottom: 30px}
+        #head .logo a{display: block;width: 420px;height: 50px;background: url("images/cart/cart_img.png") -14px -17px no-repeat;}
+        #head .r{width: 700px;height: 30px;background: url("images/cart/cart_img.png") -15px -187px no-repeat;margin-top: 30px;margin-bottom: 30px}
+        #head .l img{display: block }
+        #content{width: 700px;margin: 20px auto}
+        #content .title{width: 100%;height: 40px;line-height: 40px;text-align: center;font-size: 22px;color: #a90024;font-weight: bold;}
+        #content .tableT{width: 100%;height: 30px;line-height: 30px;text-align: center;background-color: #ccc;font-size: 14px}
+        #content .tableT span{width: 150px;float: left}
+        #content .tableT span:first-child{width: 250px}
+        #content .tableB{width: 100%;height: 30px;line-height: 30px;text-align: center;;font-size: 14px}
+        #content .tableB span{width: 148px;float: left;border-right: 1px solid #ccc;height: 30px;border-bottom: 1px solid #ccc}
+        #content .tableB span:first-child{width: 250px;border-left:1px solid #ccc}
+        #content .img{width: 243px;height: 343px;margin: 20px auto}
+        #content .img img{display: block}
+        #content .img a{float: left;color: #2263d4;text-decoration: underline;font-size: 14px;margin-top: 2px}
+        #content .img>a:nth-child(2){margin-left: 30px}
+        #content .img span{float: left;color: #000}
+    </style>
+    <script type="text/javascript" src="core/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="core/demo.js"></script>
+    <script type="text/javascript" src="core/common.js"></script>
+    <script type="text/javascript">
+        window.onload = function(){
+            friendLink();
+            bottomBlack();
+            loginStatus();
+            var _number = window.location.href.split("?number=")[1].split("&")[0];
+            var _price = window.location.href.split("price=")[1];
+            $("#number").text(_number);
+            $("#price").text("￥"+_price);
+        }
+    </script>
+</head>
+<body>
+<div id="top">
+    <a href="index.html" class="fontRed bold">返回首页</a>
+    <a href="#">收藏网站</a>
+    <span id="hello">您好，欢迎光临韩都衣舍！</span>
+    <a href="login.html">登陆</a>
+    <a href="new.html" class="fontDarkRed">注册</a>
+    <a href="shopMarket.html">购物车</a><span>|</span>
+    <a href="#">手机端</a>
+    <a href="#" class="fontDarkRed">团购批发</a>
+    <a href="#">在线客服</a>
+    <a href="help.html">帮助中心</a>
+    <span id="siteMap">网站导航</span>
+</div>
+<div id="head" class="w">
+    <span class="logo l"><a href="index.html"></a></span>
+    <span class="r"></span>
+    <span class="l"><a href="login.html"><img src="images/cart/tips.jpg"/></a></span>
+</div>
+<div id="content">
+    <div class="title">
+        恭喜您，订单提交成功！
+    </div>
+    <div class="tableT">
+        <span>订单编号</span>
+        <span>应付金额</span>
+        <span>配送方式</span>
+        <span>支付方式</span>
+    </div>
+    <div class="tableB">
+        <span id="number"></span>
+        <span id="price"></span>
+        <span>普通快递</span>
+        <span>支付宝</span>
+    </div>
+    <div class="img">
+        <img src="images/cart/code.jpg"/>
+        <a href="https://mobile.alipay.com/index.htm?action=pad">手机支付宝下载</a>
+        <span>|</span>
+        <a href="help.html">如何使用?</a>
+    </div>
+</div>
+<div id="footerNav" class="w">
+    <ul class="l">
+        <li><a href="new.html">用户注册</a></li>
+        <li><a href="#">购物流程</a></li>
+        <li><a href="navigation.html">网站导航</a></li>
+        <li><a href="help.html">帮助中心</a></li>
+    </ul>
+    <ul class="l">
+        <li><a href="#">在线支付</a></li>
+        <li><a href="#">货到付款</a></li>
+        <li><a href="#">扫码支付</a></li>
+        <li><a href="#">优惠券支付</a></li>
+    </ul>
+    <ul class="l">
+        <li><a href="#">配送说明</a></li>
+        <li><a href="#">运费说明</a></li>
+        <li><a href="#">验货签收</a></li>
+        <li><a href="#">货到付款</a></li>
+    </ul>
+    <ul class="l">
+        <li><a href="#">退换货政策</a></li>
+        <li><a href="#">退换货流程</a></li>
+    </ul>
+    <ul class="l">
+        <li><a href="#">会员制度</a></li>
+        <li><a href="#">会员积分</a></li>
+        <li><a href="#">好评有礼</a></li>
+    </ul>
+    <ul class="l">
+        <li><a href="#">品牌故事</a></li>
+        <li><a href="#">媒体报道</a></li>
+        <li><a href="#">诚聘英才</a></li>
+        <li><a href="#">联系我们</a></li>
+        <li><a href="#">团购批发</a></li>
+    </ul>
+</div>
+<div id="footerAdv" class="w">
+    <img src="images/footerAdv.jpg" class="w"/>
+</div>
+<div id="bottomNav" class="w">
+    <ul>
+        <li class="l noborder"><a href="index.html">首页</a></li>
+        <li class="l"><a href="#">品牌故事</a></li>
+        <li class="l"><a href="#">诚聘英才</a></li>
+        <li class="l"><a href="#">媒体报道</a></li>
+        <li class="l"><a href="#">联系我们</a></li>
+        <li class="l"><a href="#">网站地图</a></li>
+        <li class="l"><a href="#">友情链接</a></li>
+    </ul>
+</div>
+<div id="bottom" class="w">
+    <span id="policeLogo"><img src="images/policeLogo.jpg"/></span>
+    <p class="v">鲁ICP备14003322号-2 &copy; 2006-2015 handu.com All Rights Reserved.山东韩都衣舍电商集团有限公司，禁止非法复制</p>
+    <span id="cn22"><img src="images/cn22.jpg"/></span>
+    <a href="#" id="zhifubao"><img src="images/zhifubao.jpg"/></a>
+    <a href="#"><img src="images/police.jpg"/></a>
+    <a href="#"><img src="images/kexinwang.jpg"/></a>
+    <a href="#"><img src="images/cctv.jpg"/></a>
+    <div id="friendLinkBand" class="w">
+        <span class="friendLink">友情链接：</span>
+        <ul>
+            <li><a href="#">广州分类信息</a></li>
+            <li><a href="#">四季青服装网</a></li>
+            <li><a href="#">优惠券</a></li>
+            <li><a href="#">虎扑识货</a></li>
+            <li><a href="#">手表品牌大全</a></li>
+            <li><a href="#">服装批发拿货</a></li>
+            <li><a href="#">服装批发网</a></li>
+            <li><a href="#">网上购物</a></li>
+            <li><a href="#">淘牛品</a></li>
+            <li><a href="#">享优惠</a></li>
+            <li><a href="#">女装批发网</a></li>
+            <li><a href="#">照片书</a></li>
+            <li><a href="#">优品惠</a></li>
+            <li><a href="#">广州分类信息</a></li>
+            <li><a href="#">四季青服装网</a></li>
+            <li><a href="#">优惠券</a></li>
+            <li><a href="#">虎扑识货</a></li>
+            <li><a href="#">手表品牌大全</a></li>
+            <li><a href="#">服装批发拿货</a></li>
+            <li><a href="#">服装批发网</a></li>
+            <li><a href="#">网上购物</a></li>
+            <li><a href="#">淘牛品</a></li>
+            <li><a href="#">享优惠</a></li>
+            <li><a href="#">女装批发网</a></li>
+            <li><a href="#">照片书</a></li>
+            <li><a href="#">优品惠</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

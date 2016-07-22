@@ -1,0 +1,22 @@
+#content{margin-top: 20px;overflow: hidden}
+#content #contentTop a{width: 1000px;height: 60px;display: block;margin: 0 auto}
+#content #contentLeft{width: 510px;height: 426px}
+#content #contentLeft img{display: block;margin: 60px 0 0 50px}
+#content #contentRight{width: 688px;height: 426px;border-left:1px dashed #ccc}
+#content #contentRight #loginContainer{width: 341px;height: 317px;padding: 10px 0 0 40px;box-shadow: 2px 1px 5px rgba(0,0,0,0.4);border: 1px solid #ccc;margin: 24px 0 0 79px}
+#content #contentRight #loginContainer>span.title{display: block;font-size: 18px;height: 40px;line-height: 40px;color: #333;border-bottom: 1px solid #ccc;margin-bottom: 20px}
+#content #contentRight #loginContainer>span.errorBand{display: block;color: red;text-indent: 6em;height: 20px;}
+#content #contentRight #loginContainer label{position:relative;display: block;height: 35px;line-height: 35px;text-align: center;margin-bottom: 10px}
+#content #contentRight #loginContainer label .front{position: absolute;width: 200px;height: 38px;top: 0;left: 0;color: #ccc;-webkit-user-select: text;cursor: text}
+#content #contentRight #loginContainer label span{float: left;width: 70px;text-align: right;margin-left: 40px}
+#content #contentRight #loginContainer label>input{border: 1px solid #ccc;float: left;width:207px;height: 35px;line-height: 35px;font-size: 12px;color: #000}
+#content #contentRight #loginContainer label>input#code{width: 120px;margin-right: 7px}
+#content #contentRight #loginContainer span#codeBand{width: 80px;float: left;height: 35px;margin: 0;font-size: 16px;text-align: center;-webkit-user-select: none;font-weight: bold;cursor: pointer}
+#content #contentRight #loginContainer #loginBtn{width: 140px;height: 35px;line-height: 35px;text-align: center;background-color: #c11533;color: #fff;cursor: pointer}
+#content #contentRight #loginContainer .loginBand{border: 0;font-size: 12px;padding-left:60px;margin: 20px 0;height: 35px;display: block}
+#content #contentRight #loginContainer span.goto{display: block;padding-left: 80px;}
+#content #contentRight #loginContainer span.goto a{text-decoration: underline;font-size: 14px;color: #999;}
+#content #contentRight #otherWay{width: 609px;height: 29px;margin: 30px 0 0 79px;}
+#content #contentRight #otherWay span{line-height: 29px;float: left;height: 29px;font-size: 12px}
+#content #contentRight #otherWay a{float: left;margin-right: 5px}
+

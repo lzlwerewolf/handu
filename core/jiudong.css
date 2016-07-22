@@ -1,0 +1,123 @@
+body{ margin:0;padding: 0;font-family: "微软雅黑";font-size: 13px}
+*{ margin:0;padding: 0;border: none}
+a{text-decoration: none; color: #3e3e3e;}
+img{border: none; display: block}
+
+.w{ width: 1200px; margin: 0 auto;}
+.l{ float: left;}
+.r{ float: right}
+
+#black{display: none;width: 100%;height: 2000px;background-color: rgba(0,0,0,0.9);position: absolute;z-index: 1}
+#black #loginDiv{width: 310px;height: 330px;background-color: #fff;opacity:1;position: fixed;left: 50%;top:50%;margin:-165px 0 0 -155px;}
+#black #loginDiv #loginTitle{width: 100%;height: 32px;margin-bottom: 30px}
+#black #loginDiv #loginTitle span.new{margin:35px 0 0 40px;float: left;width: 60px;height: 20px;line-height: 20px}
+#black #loginDiv #loginTitle span#loginLogo{float: left;width: 118px;height: 32px;margin: 20px 0 0 50px;}
+#black #loginDiv #loginTitle span#loginLogo img{display: block;width: 118px;height: 32px;}
+#black #loginDiv span.l{width: 60px;height: 26px;line-height: 26px;margin-top: 10px;margin-left:50px;text-align:right}
+#black #loginDiv input{border: 1px solid #ccc;height: 26px;line-height: 26px;margin-top: 10px}
+#black #loginDiv input#identiCodeInput{width:80px;height: 26px;line-height: 26px;}
+#black #loginDiv input#identiCode{color:#fff;font-weight:bold;font-size:16px;width: 60px;height: 26px;line-height: 26px;border:0;background: url("/images/jiudong/identiCodeBackground.jpg") repeat #000;text-align: center}
+#black #loginDiv div.shadow{width: 60px;height: 26px;position: absolute;top: 148px;left:192px;background-color: #000;opacity: .1}
+#black #loginDiv #autoLogin{height: 12px;margin: 20px 0 0 80px}
+#black #loginDiv label{line-height: 20px}
+#black #loginDiv a#forgetPsw{display:inline-block;margin-left: 20px;text-decoration: underline}
+#black #loginDiv button#loginBtn{display:block;width:225px;height:33px;line-height:33px;text-align:center;background: url("/images/jiudong/load_btn.gif");color: #fff;font-size: 16px;font-weight: bold;margin: 20px auto}
+#black #loginDiv span#exit{position: absolute;text-align:center;left:145px;bottom:30px;width: 20px;height: 20px;line-height: 20px;color: #ccc;cursor: pointer;border: 1px solid #ccc;border-radius: 10px}
+#black #loginDiv span#exit:hover{color: red}
+
+
+
+
+
+#topband{width: 100%;height: 35px;background-color: #f0f0f0}
+#top{ padding-left:18px; height: 35px; line-height: 35px;}
+#top #logOut{margin-left: 40px;float:left;cursor: pointer}
+#top #logOut:hover{color: #cc0200}
+a:hover{ text-decoration: none;color: #f60;}
+
+#navband{height: 139px;width: 100%;border-bottom: 2px solid #f65006;}
+#nav{ height: 139px; position: relative}
+#nav h1{ margin:39px 0 0 27px; width: 144px; height: 37px;}
+#nav h1 a{ display: block; width: 144px; height: 37px}
+#nav h1 a img{width: 144px; height: 37px}
+#nav img.xiaofei{ margin: 48px 0 0 18px}
+#nav #search{ width: 620px; height: 35px;border: 3px solid #f65006; border-radius: 5px;line-height: 35px; margin: 38px 0 0 34px}
+#nav input{ width: 512px;height: 35px;outline: none}
+#nav span#searchButton{ width: 108px; height: 35px; background-color: #f65006; color: #fff;text-align: center;font-size: 20px; cursor: pointer}
+#nav img.gouwu{ margin: 44px 0 0 44px}
+#nav img.saoma{margin: 27px 0 0 35px}
+#nav ul{ list-style: none; width: 896px; height: 32px; position: absolute; left: 190px; top: 110px;padding-left: 20px}
+#nav ul li{ width: auto; height: 32px; float: left}
+#nav ul li a{ line-height: 32px; text-align: center;width: auto; height: 32px;display: block;padding: 0 10px}
+
+#banner_login{ height: 460px;position: relative}
+#banner_login div#banner_login_nav{ position: absolute;left: 0;top: -46px; width: 200px; height:490px; background-color:#F60;}
+#banner_login div#banner_login_nav span.plus{ display: block;width: 17px;height: 17px;background:url("/images/jiudong/plus.jpg") no-repeat;float: left;margin:14px 0 0 14px}
+#banner_login div#banner_login_nav span.title{color: #fff; display: block;width: 124px;height: 18px;font-size: 18px; text-align: center;line-height: 18px;float: left;margin-top: 14px}
+#banner_login div#banner_login_nav span.right{;color: #fff;font-size: 10px;width: 19px;height: 19px;text-align: center;line-height: 19px;float: left;margin-top: 14px;}
+#banner_login div#banner_login_nav div#banner_login_nav_item{width: 100%;height: 90px;float: left;border-bottom: 2px solid #fff;padding-left: 7px}
+#banner_login div#banner_login_nav div#banner_login_nav_item a.banner_nav_title{ display: block;width: 100%;height: 40px;line-height: 40px;font-size: 16px;color: #fff;float: left}
+#banner_login div#banner_login_nav div#banner_login_nav_item a.banner_nav_title:hover{text-decoration: underline;color:yellow}
+#banner_login div#banner_login_nav div#banner_login_nav_item a.banner_nav_item{ float: left;width: auto;margin:3px;font-size: 13px;color: #fff}
+
+
+#banner_login div.login{font-size: 13px;color: #fff; width: 141px; height: 444px;text-align:center;background:#333 url("/images/jiudong/jiudong.jpg") no-repeat 24px 21px; position: absolute; top: 8px;left: 208px}
+#banner_login div.login span.hello{ display: block;width: 70px;height: 13px;line-height: 13px;margin:132px 0 23px 35px;}
+#banner_login div.login span.loginBtn{ margin:0 auto; cursor:pointer;display: block;width: 69px;height: 23px; border-radius:10px;line-height: 23px;background: #f60 url("/images/jiudong/loginpeople.jpg") no-repeat 23px 4px ;padding-left:34px}
+#banner_login div.login a{ color: #fff}
+#banner_login div.login a.afterUser{color: #f60;display: block}
+#banner_login div.login a.afterPoint{font-size: 20px;color:#ffee11;margin-top: 50px;display: block}
+#banner_login div.login a:hover{color: #f60}
+#banner_login div.login a.new{display: block;width: 70px;height: 13px; line-height: 13px; margin:20px auto;}
+#banner_login div.login span.xiaofei{width: 80px;height: 40px;line-height: 24px;display: block; margin: 0 auto}
+#banner_login div.screen{background-color:#fff;width:584px;height: 302px; overflow: hidden;border: 1px solid #e1e1e1; position: relative;left: 357px;top:8px;padding:2px 0}
+#banner_login div.screen span{cursor:pointer;display: block;position: absolute;top: 50%; width: 20px;height: 40px;line-height: 40px; text-align: center;background-color: #000;opacity: .5; color: #fff}
+#banner_login div.screen span:hover{opacity: .8}
+#banner_login div.screen #lt{ left: 0}
+#banner_login div.screen #gt{ right: 0;}
+
+#banner_login div.screen div#scroll{width:3000px;height: 302px; position: absolute}
+#banner_login div.screen div#scroll a{width: 584px;height: 302px;display: block; float: left}
+#banner_login div.screen div#scroll a img{width: 584px;height: 302px;display: block;border: 0;}
+#banner_login a.little{display: block;border: 1px solid #e1e1e1;position: absolute; top: 319px;width:189px;height:132px}
+#banner_login a.little img{width:189px;height:132px;display: block;border: 0}
+#banner_login a.vivox6a{display: block; text-align:center;width: 191px;height: 30px;line-height: 30px;left:357px;top: 422px;background-color: #e1e1e1;color: #759e96;position: absolute}
+#banner_login a.vivox6a:hover{color: #f60}
+#banner_login a.middle{display: block;position: absolute;left: 955px; width:245px;}
+#banner_login a.middle img{display: block;width: 245px;border:0;}
+#banner_login div#scrollNav{display: none;width:1000px;height:459px;position: absolute;left:200px;top: 0; background: url("/images/jiudong/shadow.jpg") 800px 0 no-repeat #fff}
+#banner_login div#scrollNav div.scrollNav_div{ width: 750px;height: 40px;margin-left: 25px;border-bottom: 1px solid #ccc;float: left}
+#banner_login div#scrollNav div.scrollNav_div a.left{float: left;width: 120px;height: 40px;line-height: 40px;color: #f60;font-weight: bold;padding-left: 15px;font-size: 17px}
+#banner_login div#scrollNav div.scrollNav_div a.right{float: left;width: auto;height: 40px;line-height: 40px;color: #555;margin: 0 7px}
+#banner_login div#scrollNav div.scrollNav_div a.right:hover{color: #f60}
+#banner_login div#scrollNav div.scrollNav_div span{float: left;line-height: 40px;color: #555}
+#banner_login div#scrollNav h3{font-size: 22px;margin:30px 0 0 830px}
+#banner_login div#scrollNav div#recommed{width: 200px;height:401px;margin-left: 800px;text-align: center}
+#banner_login div#scrollNav div#recommed a{display: inline-block;width: 80px;height: 27px;margin: 10px}
+#banner_login div#scrollNav div#recommed a img{display: block;width: 80px;height: 27px}
+div.content1{ height: 300px;}
+div.content1 div.firstAdv{ width: 214px;height: 294px;border: 1px solid #ccc;padding: 2px}
+div.content1 div.firstAdv a {width: 214px;height: 293px;}
+div.content1 div.firstAdv a img{display: block;border: none;width: 214px;height: 294px}
+div.content1 div.advBand{ width: 978px;height:298px;border: 1px solid #ccc;border-left: 0}
+div.content1 div.advBand div#selectCardBand{ width: 978px;background-color:#f2f2f2;height: 32px;}
+div.content1 div.advBand div#selectCardBand span{text-align: center;font-size: 12px; height:32px;line-height:32px;font-weight: bold;color: #565656;border-left: 1px solid #ccc}
+div.content1 div.advBand div#selectCardBand span#newItem{border-left: 0}
+div.content1 div.advBand div#selectCardBand span.selected{display:block;width: 220px;background-color: #fff;cursor: pointer}
+div.content1 div.advBand div#selectCardBand span.unselected{display:block;width:80px;border-bottom: 1px solid #ccc;cursor: pointer}
+div.content1 div.advBand div#selectCardBand span#null{display: block;width:594px;border-bottom: 1px solid #ccc}
+div.content1 div.advBand div.selectAdvBand{width: 978px;height: 266px;}
+div.content1 div.advBand div.selectAdv{width: 190px;height: 255px;border: 1px #ccc solid; margin:5px 0 0 3px}
+div.content1 div.advBand div.selectAdv a{ display: block;width:190px;height: 190px;}
+div.content1 div.advBand div.selectAdv a img{display: block;border: 0;width: 190px;height: 190px;}
+div.content1 div.advBand div.selectAdv span{display: block;font-size: 12px;width: 180px;height: 22px;line-height: 22px;padding-left: 10px}
+div.content1 div.advBand div.selectAdv span.name{color:#565656;}
+div.content1 div.advBand div.selectAdv span.price{color:#cc0200;font-weight: bold}
+div.content1 div.advBand div.selectAdv span.point{color: #104aad;}
+div.content2{position: relative; height:459px;}
+div.content2 a{position: absolute;display: block;}
+div.content2 a img{display: block;border: 0;}
+
+div#foot{width: 100%;text-align: center;height: 90px;background-color: #000;color: #fff;overflow: hidden}
+div#foot p{height: 25px;line-height: 25px;margin-top: 24px;}
+div#foot p a{color: #fff;}

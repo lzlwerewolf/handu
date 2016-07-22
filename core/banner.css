@@ -1,0 +1,32 @@
+
+
+.banner{margin: 0 auto;width: 1200px;height: 100px}
+.banner:nth-child(1){background: url("../images/banner/banner1.jpg") no-repeat 0 center}
+.banner:nth-child(2){background: url("../images/banner/banner2.jpg") no-repeat 0 center}
+.banner:nth-child(3){background: url("../images/banner/banner3.jpg") no-repeat 0 center}
+.banner:nth-child(4){background: url("../images/banner/banner4.jpg") no-repeat 0 center}
+.banner:nth-child(5){background: url("../images/banner/banner5.jpg") no-repeat 0 center}
+
+#content{height: auto;overflow: hidden;}
+#content>div{width: 100%;height: auto;overflow: hidden}
+#content>div>.title{float: left;width: 1200px;overflow: hidden}
+#content>div>.title img{display: block;width: 1200px;}
+#content>div>.inner{float: left;width: 260px;margin: 10px 20px;height: 450px;}
+#content>div>.inner>a{display: block;width: 100%;}
+#content>div>.inner>a img{display: block;width: 260px;height: 371px}
+#content>div>.inner>span.bottom{display: block;width: 100%;}
+#content>div>.inner>span.bottom .l .xpj{display: block;color: #0eb3ad;text-indent: 10px;margin-top: 20px;font-weight: bold;font-size: 18px}
+#content>div>.inner>span.bottom .l .now{font-size: 18px;font-weight: bold;font-family: "Arial";text-indent: 10px;}
+#content>div>.inner>span.bottom .l .last{font-size: 16px;color: #ccc}
+#content>div>.inner>span.bottom .r{width: 66px;text-align: center;line-height: 25px;height: 75px;background-color: #0eb3ad;color: #fff}
+
+#brandBand{height: 850px;width: 100%;background-color: #ccc}
+#brandBand #brand{height: 690px;position: relative}
+#brandBand #brand>div{width: 950px;height: 185px;position: relative;text-align: center;padding-left: 250px}
+#brandBand #brand>#brand2{left: 59px;top: -23px}
+#brandBand #brand>#brand3{left: 0;top: -46px}
+#brandBand #brand>#brand4{left: 59px;top: -69px}
+#brand>img{display: block;width: 1200px}
+#brand .brand{width: 119px;height: 185px;position: relative;float: left}
+#brand .brand img{display: block;}
+#brand .brand .go{position: absolute;width: 78px;border: 1px solid #000;height: 18px;font-size: 14px;line-height: 18px;left: 18px;bottom: 27px;color: rgba(0,0,0,1);text-align: center;}

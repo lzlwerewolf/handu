@@ -1,0 +1,54 @@
+#top{width: 1245px;height: 39px;border-bottom: 1px solid #ccc;padding-left: 20px;margin: 0 auto}
+#top *{height: 39px;line-height: 39px}
+#top a{font-size:12px;padding: 0 15px;float: left;}
+#top span{font-size: 12px;float: left;padding: 0 15px;}
+#top #hello{margin-left: 120px;}
+#top #siteMap{background: url("../images/siteMap.jpg") left center no-repeat;text-indent: 1em;cursor: pointer}
+
+#header{width: 1265px;height: 90px;padding-top:28px;position: relative}
+#header .logo{width:180px;height: 62px;display: block;position: absolute;left: 100px}
+#header .gonglue{width:145px;height: 62px;display: block;position: absolute;left: 280px;}
+#header input{width: 401px;height: 32px;border: 2px solid #c70a28;text-indent:1em;outline: none;position: absolute;left: 501px;}
+#header span.button{cursor:pointer;display: block;position: absolute;left: 902px;width: 87px;height: 32px;border: 2px solid #c70a28;font-size: 16px;line-height: 32px;text-align: center;color: #fff;background-color: #c70a28}
+#header a.application{display: block;position: absolute;right:-31px; width: 212px;height: 54px;}
+#header ul{position: absolute;left:486px;top:70px;width: 428px;height: 16px;list-style: none;}
+#header ul li{float: left;border-right:1px solid #e3eeff;height: 16px;padding: 0 10px}
+#header ul li a{display: block;font-size: 12px;height: 16px;}
+
+#imgNav{width: 1400px;height: 43px;}
+#imgNav span.bold{color: #333333;margin-left:100px;width: 186px;height: 43px;line-height: 43px;}
+#imgNav a{float: left;width: 100px;height: 43px}
+#imgNav a img{display: block;width: 100px;height: 43px}
+
+#nav{width: 1265px;height: 35px;background-color: #c70a28;font-size: 14px;position: relative}
+#nav #allGoodKinds{font-size: 16px;background:url("../images/allGoodKinds.jpg") 170px 10px no-repeat;width: 230px;height: 35px;line-height: 35px;color: #fff;text-align: center;cursor: pointer}
+#nav a{padding: 0 16px;line-height: 35px;color: #fff}
+#nav a.fontYellow{color: #ffff00}
+#nav .selectBand{color: #fff;float:right;line-height:35px;width: 116px;height: 35px;background: url("../images/selectBand.jpg") 68px 15px no-repeat;cursor: pointer;overflow: hidden}
+#nav .selectBandMid{color: #fff;float:right;line-height:35px;width: 116px;height: 35px;background: url("../images/selectBand.jpg") 84px 15px no-repeat;cursor: pointer;overflow: hidden}
+#nav span a{display: block;width: 116px;height: 35px;background-color: #c70a28;padding: 0;text-indent: 1em}
+#nav #scrollNav{background-color:#fff;position: absolute;top: 35px;left:32px;width: 200px;height: 509px;border: 1px solid #ccc;display: none;border-top:0;border-bottom: 0;z-index: 100}
+#nav #scrollNav .women{height: 80px;width: 100%;border-bottom: 1px solid #ccc;}
+#nav #scrollNav div{position: relative;}
+#nav #scrollNav div a{color: #333333;float: left;padding:0 6px ;line-height: 24px;height:24px;margin-left: 13px;font-size: 12px}
+#nav #scrollNav div a.hot{font-weight: bold;color: red}
+#nav #scrollNav div h3{font-weight:bold;font-size: 12px;color: #333;text-indent: 1em;width: 100%;margin-top: 15px;margin-bottom: 5px}
+#nav #scrollNav div h3 i{float: left;width: 17px;height: 17px;margin-left: 30px}
+#nav #scrollNav div h3 i img{display: block;}
+#nav #scrollNav .men{height: 80px;width: 100%;border-bottom: 1px solid #ccc;}
+#nav #scrollNav .men a{margin-left: 10px}
+#nav #scrollNav .children{height: 80px;width: 100%;border-bottom: 1px solid #ccc;}
+#nav #scrollNav .children a{margin-left: 2px}
+#nav #scrollNav .moms{height: 80px;width: 100%;border-bottom: 1px solid #ccc;}
+#nav #scrollNav .moms a{margin-left: 3px}
+
+
+#nav #scrollNav #shoes{height: 41px;width: 100%;border-bottom: 1px solid #ccc;background: url("../images/shoes.jpg") 18px 13px no-repeat}
+#nav #scrollNav #shoes span{float: left;margin: 15px 17px 0 43px;font-size: 14px;color: #333;width: auto;height: 14px;}
+#nav #scrollNav #shoes a{float: left;margin-top:16px;font-size: 12px;color: #666;line-height: 14px;height: 14px;padding: 0}
+#nav #scrollNav #bag{height: 41px;width: 100%;border-bottom: 1px solid #ccc;background: url("../images/bag.jpg") 18px 13px no-repeat}
+#nav #scrollNav #bag span{float: left;margin: 15px 17px 0 43px;font-size: 14px;color: #333;width: auto;height: 14px;}
+#nav #scrollNav #bag a{float: left;margin-top:16px;font-size: 12px;color: #666;line-height: 14px;height: 14px;padding: 0}
+#nav #scrollNav #decoration{height: 41px;width: 100%;border-bottom: 1px solid #ccc;background: url("../images/decoration.jpg") 18px 13px no-repeat}
+#nav #scrollNav #decoration span{float: left;margin: 15px 17px 0 43px;font-size: 14px;color: #333;width: auto;height: 14px;}
+#nav #scrollNav #decoration a{float: left;margin-top:16px;font-size: 12px;color: #666;line-height: 14px;height: 14px;padding: 0}

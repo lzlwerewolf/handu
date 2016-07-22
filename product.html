@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body{ margin:0 auto;}
+        div{ width:250px; padding:3px; background-color:#fff; border:solid 1px #ccc; float:left; margin:10px 0px 0px 10px; display:inline;}
+        img{ border:0; border:none;width:250px; float:left;}
+        div a{ display:block; width:250px; height:25px; line-height:25px; font-size:13px; text-align:center; color:#555; float:left;}
+        div span{ display:block; width:100%; float:left; text-align:center; font-size:13px; color:#fff; background-color:#BE0024; height:30px; line-height:30px; cursor:pointer;}
+    </style>
+    <script type="text/javascript" src="/core/jquery-1.11.2.js"></script>
+    <script type="text/javascript">
+        function storeCookie(_item,_list){
+            var _temp=null;
+            var _cookie="";
+            for(var i=0;i<_list.length;i++){
+                _temp=window.eval("("+_list[i]+")");
+                if(_temp["id"]==_item["id"]){
+                    _list[i]="{\"id\":"+_item["id"]+",\"counter\":"+_item["counter"]+",\"descirption\":\"\"}";
+                }
+                _cookie+=_list[i]+"$";
+            }
+            document.cookie="list="+_cookie.replace(/\$$/g,"");
+        }
+        function isExist(_identify){
+            var _exist=false;
+            var _cookie=document.cookie;
+            var _reg=/\{\.+\}/g;
+            var _list = _cookie.match(/\{.+\}/g)[0].split("$");
+            var _item=null;
+            for(var i=0;i<_list.length;i++){
+                _item=window.eval("("+_list[i]+")");
+                if(_item["id"]==_identify){
+                    _exist=true;
+                    _item["counter"]=parseInt(_item["counter"])+1;
+                    break;
+                }
+            }
+            storeCookie(_item,_list);
+            return _exist;
+        }
+        function cartEvent(){
+            $("span").click(function(){
+                var _item="";
+                var _cookie=document.cookie;
+                if(/.+/g.test(_cookie.replace(/\s+/g,""))){
+                    if(!isExist(this.id.replace(/p\_/g,""))){
+                        _item+="\"id\":"+this.id.replace(/p\_/g,"")+",";
+                        _item+="\"counter\":1,";
+                        _item+="\"description\":\"\"";
+                        document.cookie+="${"+_item+"}";
+                    }
+                }
+            });
+        }
+        function dealData(_json,_identify){
+            var _html="";
+            for(var k in _json){
+                if(_json[k]["categoryID"].indexOf(_identify)>=0){
+                    _html+="<div>";
+                    _html+="<img alt=\"\" src=\"/images/android.jpg\"/>";
+                    _html+="<a href=\"/detail.html?id="+k+"\">"+_json[k]["name"]+"</a>";
+                    _html+="<span id=\"p_"+k+"\">加入购物车</span>";
+                    _html+="</div>";
+                }
+            }
+            document.getElementsByTagName("body")[0].innerHTML=_html;
+            cartEvent();
+        }
+        $(document).ready(function(){
+            var _url=window.location.href;
+            var _reg=/id=\d+/g;
+            var _identify=0;
+            if(_reg.test(_url)){
+                _reg.lastIndex=0;
+                _identify=_url.match(_reg)[0].replace(/id=/g,"");
+                $.post("/core/list.json",{},function(data,textStatus){
+                    if(textStatus=="success"){
+                        dealData(window.eval("("+data+")"),_identify);
+                    }
+                },"text");
+            }
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

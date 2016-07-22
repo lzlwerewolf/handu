@@ -1,0 +1,9 @@
+{
+    "goods":{
+      "women":[["images/women/1.jpg","￥78.00","￥168.00"],["images/women/2.jpg","￥108.00","￥268.00"],["images/women/3.jpg","￥68.00","￥158.00"],["images/women/4.jpg","￥69.00","￥178.00"],["images/women/5.jpg","￥108.00","￥218.00"]],
+      "men":[["images/men/1.jpg","￥99.00","￥198.00"],["images/men/2.jpg","￥69.00","￥178.00"],["images/men/3.jpg","￥79.00","￥168.00"],["images/men/4.jpg","￥79.00","￥188.00"],["images/men/5.jpg","￥99.00","￥208.00"]],
+      "moms":[["images/moms/1.jpg","￥109.00","￥259.00"],["images/moms/2.jpg","￥119.00","￥259.00"],["images/moms/3.jpg","￥99.00","￥328.00"],["images/moms/4.jpg","￥89.00","￥199.00"],["images/moms/5.jpg","￥99.00","￥228.00"]],
+      "miss":[["images/miss/1.jpg","￥358.00","￥358.00"],["images/miss/2.jpg","￥334.00","￥628.00"],["images/miss/3.jpg","￥108.00","￥238.00"],["images/miss/4.jpg","￥178.00","￥368.00"],["images/miss/5.jpg","￥138.00","￥258.00"]],
+      "kids":[["images/kids/1.jpg","￥119.00","￥208.00"],["images/kids/2.jpg","￥89.00","￥188.00"],["images/kids/3.jpg","￥66.00","￥118.00"],["images/kids/4.jpg","￥129.00","￥248.00"],["images/kids/5.jpg","￥59.00","￥108.00"]]
+    }
+}

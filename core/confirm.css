@@ -1,0 +1,29 @@
+#head{height: 130px;margin-top: 20px;}
+#head .logo{width: 430px;height: 50px;margin-top: 10px;margin-bottom: 30px}
+#head .logo a{display: block;width: 420px;height: 50px;background: url("../images/cart/cart_img.png") -14px -17px no-repeat;}
+#head .r{width: 700px;height: 30px;background: url("../images/cart/cart_img.png") -15px -138px no-repeat;margin-top: 30px;margin-bottom: 30px}
+#head .l img{display: block}
+
+#content{border: 1px solid #ccc;width: 1197px}
+#content>p{line-height: 36px;height: 36px;color: #333;text-indent: 10px;}
+#content>a{display: block;color: #2263d4;text-align: right}
+#content>.title{width: 1160px;margin: 0 auto;background-color: #eeeeee;height: 30px;line-height: 30px;font-size: 12px;text-align: center}
+#content>.title span{float: left}
+
+#container{height: auto;}
+#container .inner{width: 1160px;height: 150px;border-bottom: 1px solid #ccc;position: relative;margin-left: 20px}
+#container .inner .img{width: 80px;height: 80px;margin: 30px 40px 0 40px}
+#container .inner img{display: block;width: 80px}
+#container .inner .name{height: 80px;width: 360px;line-height: 40px;margin-top: 30px}
+#container .inner .size{height: 100%;line-height: 150px;width: 160px;text-align: center}
+#container .inner .num{height: 100%;line-height: 150px;width: 160px;text-align: center}
+#container .inner .num .goodNum{width: 100%;height: 100%;display: block}
+#container .inner .price{height: 100%;line-height: 150px;width: 160px;text-align: center}
+#container .inner .all{height: 100%;line-height: 150px;width: 160px;text-align: center;color: red}
+
+#manyMuch{height: 40px;}
+#manyMuch span{float: right;color: #333;font-size: 14px;height: 40px;line-height: 40px}
+#manyMuch #howmany{font-size: 16px;color: #a90024;}
+#manyMuch #howmuch{font-size: 22px;color: #a90024}
+
+#submit{background: url("../images/cart/cart_img.png") no-repeat -16px -410px;width: 157px;height: 36px;float: right;cursor: pointer}

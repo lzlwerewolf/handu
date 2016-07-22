@@ -1,0 +1,13 @@
+{
+  "category":["九东百货商城","http://www.baidu.com"],
+  "dianqi":["电器","jiudong-list.html?key=电器"],
+  "baihuo":["百货","jiudong-list.html?key=百货"],
+  "fushi":["服饰","jiudong-list.html?key=服饰"],
+  "meirong":["美容护理","jiudong-list.html?key=美容护理"],
+  "muying":["母婴","jiudong-list.html?key=母婴"],
+  "xiebao":["鞋包","jiudong-list.html?key=鞋包"],
+  "shuma":["数码","jiudong-list.html?key=数码"],
+  "nongfu":["农副","jiudong-list.html?key=农副"],
+  "zbss":["钟表首饰","jiudong-list.html?key=钟表首饰"],
+  "jiazhuang":["家装","jiudong-list.html?key=家装"]
+}

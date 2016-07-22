@@ -1,0 +1,8 @@
+{
+  "category":{
+    "women":[["images/women.jpg"],["T恤","http://www.baidu.com","hot"],["连衣裙","url"],["牛仔裤","url"],["衬衣","url"],["毛衣/针织","url"],["套装","url"],["卫衣","url"],["休闲","url"]],
+    "men":[["images/men.jpg"],["T恤","url","hot"],["休闲裤","url"],["polo衫","url"],["衬衣","url"],["牛仔裤","url"],["外套","url","hot"],["毛衣/针织","url"],["卫衣","url"]],
+    "children":[["images/kids.jpg"],["T恤","url"],["休闲裤","url","hot"],["连衣裙","url","hot"],["牛仔裤","url"],["卫衣","url"],["打底裤","url"],["套装","url","hot"],["毛衣/针织","url"]],
+    "moms":[["images/moms.jpg"],["T恤","url"],["衬衫","url"],["连衣裙","url","hot"],["外套","url"],["裤子","url"],["毛衣/针织","url","hot"],["半身裙","url"]]
+  }
+}

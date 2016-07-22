@@ -1,0 +1,30 @@
+
+#content{height: auto;overflow: hidden;}
+#content img{display: block}
+#content #banner a{display: block;}
+#content #position{width: 100%;height: 45px;padding-top: 25px}
+#content #position span{float: left;height: 20px;line-height: 20px}
+
+#content #sort{height: 28px;border: 1px solid #ccc;width: 1198px;font-size: 12px}
+#content #sort span,input{float: left;width: auto;height: 28px;line-height: 28px;font-size: 13px;}
+#content #sort span.onSale{border: 0;width: 60px;cursor: default}
+#content #sort span.baoyou{border: 0;width: 60px;cursor: default}
+#content #sort span{width: 90px;text-align: center;cursor: pointer}
+#content #sort span{border-right: 1px solid #ccc}
+#content #sort .minPrice{margin-left: 30px;width: 28px;height: 18px;border: 1px solid #ccc;margin-top: 5px;background: url("../images/list/money.jpg") no-repeat left center;line-height: 20px;text-indent: 8px}
+#content #sort .maxPrice{margin-right: 30px;width: 28px;height: 18px;border: 1px solid #ccc;margin-top: 5px;background: url("../images/list/money.jpg") no-repeat left center;line-height: 20px;text-indent: 8px}
+#content #container{width: 100%;height: 4320px;overflow: hidden}
+#content #container .item{width: 288px;float: left;height: 340px;border: 1px solid #ccc;margin: 15px 0 0 9px}
+#content #container .item a.img{ display: block;width: 284px;height: 284px;padding:  4px 0 0 4px;}
+#content #container .item a>img{}
+#content #container .item a.name{width: 273px;height: 30px;line-height: 30px;overflow: hidden;font-size: 13px;display: block;margin-left: 5px}
+#content #container .item>span{display: block;width: 280px;padding-left: 8px;height: 22px;line-height: 22px}
+#content #container .item>span span.price{color: #c80a28;font-size: 14px;font-weight: bold;float: left}
+#content #container .item>span span.soldBand{float: left;}
+#content #container .item>span span.soldBand>span{color: #999;}
+#content #container .item>span span.soldBand>span.sold{color: #c80a28}
+
+#content #page{width: 100%;height: 40px}
+#content #page>div{margin: 0 auto;width: 370px;height: 40px}
+#content #page>div>span{float: left;height: 38px;border: 1px solid #ccc;padding: 0 12px;line-height: 38px;margin-right: 20px;cursor: pointer}
+#content #page>div>span.index{background-color: #aaa;color: #fafafa}
